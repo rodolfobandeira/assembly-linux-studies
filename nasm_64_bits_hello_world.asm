@@ -28,11 +28,11 @@ _start:
     mov     rdi, 0x01              ; file descriptor
     mov     rsi, msg               ; message
     mov     rdx, len               ; message length
-    int     0x80                   ; call kernel
+    syscall                        ; call kernel
 
     mov     rax, 0x3C              ; system call (sys_exit) 60 = 0x3C
     mov     rdi, 0x00              ; 0 means no error
-    int     0x80                   ; call kernel
+    syscall                        ; call kernel
 
 
 ; To compile:
