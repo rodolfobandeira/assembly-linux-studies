@@ -13,7 +13,7 @@ section .text
 ; r8, r9, r10, r11, r12, r13, r14, r15, r16
 ; -----------------------------------------
 ;
-; We're going to use the system call above:
+; We're going to use the system call bellow:
 ; ssize_t sys_write(unsigned int fd, const char * buf, size_t count)
 ;
 ; This is the registers used for the parameters
