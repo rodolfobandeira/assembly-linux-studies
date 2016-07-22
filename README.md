@@ -9,4 +9,5 @@
 #### Reference:
 
 - http://0xax.blogspot.ca/2014/08/say-hello-to-x64-assembly-part-1.html
+- Free Assembly 64 bits + Ubuntu E-book: http://www.egr.unlv.edu/~ed/x86.html
 
